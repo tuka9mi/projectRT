@@ -1,0 +1,10 @@
+<header>
+    @include('includes.head')
+    @include('includes.navbar')
+</header>
+<body>
+    @yield('content')
+</body>
+<footer>
+   @include('includes.footer')
+</footer>

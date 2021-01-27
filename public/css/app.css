@@ -1,0 +1,137 @@
+
+body {
+    background-color: #f8f8f8 !important;
+    direction: rtl !important;
+    margin: 0 !important;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 3px 8px -5px #c5c5c5;
+}
+
+.navbar .btn-secondary {
+    color: #222;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.navbar .btn-secondary:focus {
+    box-shadow: none;
+}
+
+
+.navbar .btn-secondary svg {
+    width: 30px;
+    height: 30px;
+}
+.navbar  #iraqFlag {
+    width: 30px;
+    height: 30px;
+    margin: 0 7px 0 0;
+}
+.navbar ul li {
+    padding-right: 35px;
+}
+
+.container {
+    width: 100%;
+
+}
+.container .apptone-section-1 {
+    width: 100%;
+ 
+}
+
+.apptone .apptone-bk {
+    width: 30%;
+    margin-top: 40px;
+    position: relative;
+    right:35px;
+  
+    
+
+
+}
+.apptone  .apptone-bk img {
+    width: 100%;
+}
+
+.apptone-section-1 .apptone-form {
+    margin-top: 110px;
+    box-shadow: -1px 7px 11px -5px #7dc9f5;
+    padding: 25px;
+    border-radius: 20px;
+    background-color:#fff;
+    width: 50%;
+    height: fit-content;
+    padding-bottom: 35px;
+    position: relative;
+    left:35px;
+  
+}
+.apptone-section-1 .apptone-form .title h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.apptone-section-1 .search{
+  background-color: #bcb8fbab;
+  padding: 7px;
+  width: 100%;
+    text-align: right;
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 35px;
+    border:none;
+  
+}
+.apptone-section-1 .search{
+    background-color: #bcb8fbab;
+    padding: 7px;
+    width: 100%;
+      text-align: right;
+      color: #222;
+      font-weight: 500;
+      font-size: 20px;
+      border-radius: 35px;
+      border:none;
+      
+    
+  }
+.apptone-section-1 .apptone-form .search input{
+    border-radius: 35px;
+  
+}
+
+
+.apptone-section-1 .apptone-form .dropdown button {
+    width: 100%;
+    text-align: right;
+    background-color: fff;
+    color: #222;
+    font-weight: 500;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 35px;
+    border:none;
+}
+
+.apptone-section-1 .apptone-form .form-control {
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #2222;
+    border-top: none;
+   
+}
+
+.btn-check:focus + .btn, .btn:focus,
+.form-control:focus,
+.btn-check:checked + .btn-secondary:focus, .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus, .show > .btn-secondary.dropdown-toggle:focus
+{
+    outline: 0 !important;
+ box-shadow: none !important;
+}
